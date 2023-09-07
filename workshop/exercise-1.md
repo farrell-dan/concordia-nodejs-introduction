@@ -1,6 +1,6 @@
 # Exercise 1 - The Cat Chat
 
-![exercise 1](../__lecture/assets/exercise-1.gif)
+![exercise 1](../lecture/assets/exercise-1.gif)
 
 In this exercise, we will give a user the possibility of interacting with our cat. The server(cat) will respond with a "meow" everytime someone sends a message. The server never actually sees the user message and doesn't really care. It just responds with a "Meow" no matter what.
 
@@ -149,7 +149,7 @@ We chain a series of `.then()`s to the call to do something when the server resp
 
 Did it work? What happened in the console?
 
-![ex1 error](../__lecture/assets/exercise-1_error.png)
+![ex1 error](../lecture/assets/exercise-1_error.png)
 
 Why? 😭😭
 

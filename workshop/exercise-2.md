@@ -1,6 +1,6 @@
 # Exercise 2 - Monkey Chat
 
-![exercise 2](../__lecture/assets/exercise-2.gif)
+![exercise 2](../lecture/assets/exercise-2.gif)
 
 For this exercise, the frontend code is complete. We're using code similar to what you built in exercise 1. All code is to be written in the `server.js` file.
 

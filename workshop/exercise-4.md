@@ -1,6 +1,6 @@
 # Exercise 4 - Bot chat
 
-![exercise 4](../__lecture/assets/exercise-4.gif)
+![exercise 4](../lecture/assets/exercise-4.gif)
 
 Time to kick things up a notch. Since we can't build something that will connect the user to a human, let's do the next best thing: a bot! 🤖.
 
@@ -15,7 +15,7 @@ Let's create a bot that that will _read_ the user message and respond appropriat
 
 You should end up with something like this.
 
-![bot chat 1](../__lecture/assets/bot-chat-1.png)
+![bot chat 1](../lecture/assets/bot-chat-1.png)
 
 2. A proper greeting
 
@@ -47,7 +47,7 @@ Rewrite the function above to loop through the `commonGreetings` and check if an
 - If it does, make the bot say "Hello."
 - If it doesn't have the bot repeat what the user said. (with an added 'Bzzt').
 
-![bot chat 2](../__lecture/assets/bot-chat-2.png)
+![bot chat 2](../lecture/assets/bot-chat-2.png)
 
 3. A fine goodbye.
 

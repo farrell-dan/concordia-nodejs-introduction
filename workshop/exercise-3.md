@@ -1,6 +1,6 @@
 # Exercise 3 - Parrot Chat
 
-![exercise 3](__lecture/assets/exercise-3.gif)
+![exercise 3](./lecture/assets/exercise-3.gif)
 
 As we move through the animal kingdom, it is now time to speak with a parrot. As you might guess, the parrot will just reply with the exact message that the user sent. This starts to make things more complicated for us.
 
@@ -29,18 +29,18 @@ http://concordiabootcamps.ca?favoriteFood=avocados&name=Morty
 
 Let's hardcode a query parameter in the url like so:
 
-![exercise 3 query params](../__lecture/assets/query-param.png)
+![exercise 3 query params](../lecture/assets/query-param.png)
 
 Notice that we are not loading the frontend page here but the server endpoint. `/parrot-message/?color=blue`.
 The server will respond with its `json` object.
 
-![exercise 3 query params 2](../__lecture/assets/query-param-2.png)
+![exercise 3 query params 2](../lecture/assets/query-param-2.png)
 
 This is expected, but not the most interesting...
 
 In the `.get` method, add a `console.log(req.query)` and reload the web page. You should see this in the `node` console (_in VS code_).
 
-![exercise 3 query params 3](../__lecture/assets/query-param-3.png)
+![exercise 3 query params 3](../lecture/assets/query-param-3.png)
 
 🤯 The request from the site contains an object that breaks down the query parameters into key/value pairs.
 

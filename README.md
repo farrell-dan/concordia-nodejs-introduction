@@ -8,18 +8,31 @@ This is where things start to get a little more complicated, but a heck of a lot
 
 ## 🦊 Pre-lecture
 
-⏲️ _Estimated time required: 30 minutes._
-
-...nothing yet...
+There is no pre-lecture for this workshop.
 
 ---
 
 ## 🦉 Lecture
 
-- [lecture-1-introduction.md](__lecture/lecture-1-introduction.md)
-- [lecture-2-express.md](__lecture/lecture-2-express.md)
+- [Lecture 1 | Introduction](./lecture/lecture-1-introduction.md)
+- [Lecture 2 | Express](./lecture/lecture-2-express.md)
 
 Keep in mind that these slides are not interactive, like in the actual lecture. Whenever possible, we will provide links to working code examples in CodeSandbox.
+
+---
+
+## Deeper Dive into this app
+
+### Required dependencies
+
+If you look in the `package.json` file you will see all of the external dependencies, or modules, that we will need for today's workshop.
+
+| Package | Description|
+| ------------------------------------------------ | ---------------------------------------------------- |
+| [express](https://www.npmjs.com/package/express) | Fast, unopinionated web framework for node. |
+| [nodemon](https://www.npmjs.com/package/nodemon) | nodemon is a tool that helps develop node-based applications by automatically restarting the node application on change. |
+| [morgan](https://www.npmjs.com/package/morgan)   | HTTP request logger middleware for Node.js|
+| [moment](https://www.npmjs.com/package/moment)   | A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates. |
 
 ---
 
@@ -31,43 +44,6 @@ Keep in mind that these slides are not interactive, like in the actual lecture. 
 Your node application is now running at http://localhost:8000
 
 **When we type `yarn dev` in the terminal, it will spin up a `node` environment that will render our server-side app to the browser.**
-
-## Deeper Dive into this app
-
-### Required dependencies
-
-If you look in the `package.json` file you will see all of the external dependencies, or modules, that we will need for today's workshop.
-
-| package                                          | Description                                                                                                              |
-| ------------------------------------------------ | ------------------------------------------------------------------------------------------------------------------------ |
-| [express](https://www.npmjs.com/package/express) | Fast, unopinionated web framework for node.                                                                              |
-| [nodemon](https://www.npmjs.com/package/nodemon) | nodemon is a tool that helps develop node-based applications by automatically restarting the node application on change. |
-| [morgan](https://www.npmjs.com/package/morgan)   | HTTP request logger middleware for node.js                                                                               |
-| [moment](https://www.npmjs.com/package/moment)   | A lightweight JavaScript date library for parsing, validating, manipulating, and formatting dates.                       |
-
-### File Structure
-
-```
-├── __lecture
-├── __solution
-├── node_modules (where all external dependencies are saved)
-|   ├── ...
-|   └── ...
-├── public (folder that serves static files)
-|   ├── cat
-|   |   ├── index.html
-|   |   └── scripts.js
-|   ├── css
-|   |   ├── _chat-app.css
-|   |   ├── _mini-reset.css
-|   |   └── cat-page.css
-|   └── images
-├── .gitignore
-├── package.json (where we keep a record of the app setup)
-├── README.md (this file)
-├── server.js
-└── yarn.lock ("locks" the dependency versions)
-```
 
 This app contains both a Frontend and a Backend.
 
@@ -106,21 +82,13 @@ For this workshop, you will work in the `public` folder as well as the `server.j
 
 ## ⚡ Exercises
 
-### Exercise 1 - The Cat Chat
+### [Exercise 1](workshop/exercise-1.md) - The Cat Chat
 
-Open this exercise file: [exercise-1.md](__workshop/exercise-1.md)
+### [Exercise 2](workshop/exercise-2.md) - The Monkey Chat
 
-### Exercise 2 - The Monkey Chat
+### [Exercise 3](workshop/exercise-3.md) - Parrot Chat
 
-Open this exercise file: [exercise-2.md](__workshop/exercise-2.md)
-
-### Exercise 3 - Parrot Chat
-
-Open this exercise file: [exercise-3.md](__workshop/exercise-3.md)
-
-### Exercise 4 - Bot Chat
-
-Open this exercise file: [exercise-4.md](__workshop/exercise-4.md)
+### [Exercise 4](workshop/exercise-4.md) - Bot Chat
 
 ---
 
@@ -128,9 +96,7 @@ Open this exercise file: [exercise-4.md](__workshop/exercise-4.md)
 
 ---
 
-### Exercise 5 - Bot Chat (Tell me a joke)
-
-Open this exercise file: [exercise-5.md](__workshop/exercise-5.md)
+### [Exercise 5](workshop/exercise-5.md) - Bot Chat (Tell me a joke)
 
 ---
 
