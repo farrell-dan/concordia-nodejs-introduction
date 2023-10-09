@@ -26,7 +26,10 @@ const sendMessage = (event) => {
   const message = { author: 'user', text: messageInput.value };
   updateConversation(message);
 
-  fetch('/parrot-message')
+  const userMessage = message.text;
+  const url = `/parrot-message?userMessage=${userMessage}`;
+
+  fetch(url)
     .then((res) => res.json())
     .then((data) => {
       console.log(data);
